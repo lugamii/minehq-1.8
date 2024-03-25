@@ -1,0 +1,7 @@
+Mongo:
+ Host: localhost
+ Port: 27017
+ Database: PotPvP
+Redis:
+  Host: localhost
+  Port: 6379

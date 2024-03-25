@@ -1,0 +1,34 @@
+whitelist:
+  type: none
+  rank: Trainee
+  uuids:
+    - "eb461822-8dc7-4246-9189-2bfcb15c8d76"
+
+motd:
+  '1': "§c§lMineHQ §cNetwork"
+  '2': "§eWhere the best players play"
+
+whitelist-motd:
+  '1': "§c§lMineHQ §cNetwork"
+  '2': "§eThe network is currently whitelisted"
+
+website: "minehq.org"
+
+cheatbreaker: false
+
+broadcasts:
+  '0':
+    - ""
+    - "&6Be sure to follow us on Twitter for giveaways and more:"
+    - "&d&nTwitter.com/MiineHQ"
+    - ""
+  '1':
+    - ""
+    - "&6Be sure to join our Discord for giveaways and more:"
+    - "&d&ndiscord.minehq.org"
+    - ""
+  '2':
+    - ""
+    - "&6Be sure to join our Telegram for giveaways and more:"
+    - "&d&nT.me/MiineHQ"
+    - ""

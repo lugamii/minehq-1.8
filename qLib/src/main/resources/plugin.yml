@@ -1,0 +1,6 @@
+name: qLib
+version: 1.8
+author: LugamiPvP
+main: dev.lugami.qlib.qLib
+softdepend: [ CommonLibs, ProtocolLib ]
+load: STARTUP

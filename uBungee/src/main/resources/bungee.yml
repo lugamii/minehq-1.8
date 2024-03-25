@@ -1,0 +1,5 @@
+name: uBungee
+author: MineHQ Development Team
+version: ${git.commit.id.abbrev}
+main: dev.lugami.ubungee.uBungee
+depends: [ Bridge ]

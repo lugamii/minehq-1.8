@@ -1,0 +1,154 @@
+joinmessage:
+  - '&5&m------------------------------------------------'
+  - ''
+  - '&eWelcome to the &6&lMineHQ &6Network&e!'
+  - ''
+  - "&5&l» &e&lWebsite: &awww.minehq.com"
+  - "&5&l» &e&lTwitter: &awww.twitter.com/MineHQ"
+  - "&5&l» &e&lDiscord: &adiscord.minehq.com"
+  - "&5&l» &e&lStore: &astore.minehq.com"
+  - ''
+  - '&5&m------------------------------------------------'
+
+scoreboard:
+  title: '&6&lMineHQ Network'
+  rankcolored: true
+  normal:
+    - '&7&o&m--------------------&f'
+    - '&6Online:'
+    - '&f%players%'
+    - '&f'
+    - '&6Rank:'
+    - '&f%rank%'
+    - '&f'
+    - '&6www.minehq.com'
+    - '&7&m--------------------'
+  queue:
+    - '&7&o&m--------------------&r'
+    - '&6Online:'
+    - '&f%players%'
+    - '&f'
+    - '&6Rank:'
+    - '&r%rank%'
+    - '&f'
+    - '&cQueued for:'
+    - '&b%queue%'
+    - '&bPostion: &f#%place% of %total%'
+    - '&f'
+    - '&6www.minehq.com'
+    - '&7&m--------------------'
+
+queues:
+  UHC Meetup:
+    name: UHC Meetup
+    id: UHC-Meetup-Lobby
+    slot: 2
+    item:
+      material: APPLE
+      data: 0
+    description:
+      - '&616 Players Per Game!'
+      - '&6Solo & Duo Queues!'
+      - '&6Last Man Standing Wins!'
+  Practice:
+    name: Practice
+    id: Practice
+    slot: 4
+    item:
+      material: BOW
+      data: 0
+    description:
+      - '&61v1s, 2v2s, 3v3s!'
+      - '&6Leaderboards, Parties, & Queues!'
+      - '&6Tournaments, Redrovers, & More!'
+  KitMap:
+    name: KitMap
+    id: KitMap
+    slot: 6
+    item:
+      material: ENDER_PEARL
+      data: 0
+    description:
+      - '&65 Minute KOTHs!'
+      - '&624/7 PvP!'
+      - '&6Obstacles, Skybridges, & More!'
+  HCTeams:
+    name: HCTeams
+    id: HCTeams
+    slot: 22
+    item:
+      material: DIAMOND_SWORD
+      data: 0
+    description:
+      - '&625 Man Factions!'
+      - '&6No Allies!'
+      - '&6KOTHs, Conquest, & Citadel!'
+  UHC:
+    name: UHC
+    id: UHC
+    slot: 20
+    item:
+      material: GOLDEN_APPLE
+      data: 0
+    description:
+      - '&6Scenario Based UHC!'
+      - '&6Hardcore Healing!'
+      - '&6FFA & Team Games!'
+  MineSG:
+    name: MineSG
+    id: MineSG-Lobby
+    slot: 24
+    item:
+      material: CHEST
+      data: 0
+    description:
+      - '&6Solo and Duo Queues!'
+      - '&650 Players Per Game!'
+      - '&6Last Man Standing Wins!'
+  Bunkers:
+    name: Bunkers
+    id: Bunkers-Lobby
+    slot: 38
+    item:
+      material: BEACON
+      data: 0
+    description:
+      - '&65 Man Teams!'
+      - '&620 Players Per Game!'
+      - '&6Last Man Standing Wins Or First to Capture KOTH Wins!'
+  Vault Battles:
+    name: Vault Battles
+    id: VaultBattles-Lobby
+    slot: 40
+    item:
+      material: NETHER_STAR
+      data: 0
+    description:
+      - '&625 Man Teams!'
+      - '&6100 Players Per Game!'
+      - '&6Last Bank Standing Wins!'
+  Siege:
+    name: Siege
+    id: Siege-Lobby
+    slot: 42
+    item:
+      material: SNOW_BALL
+      data: 0
+    description:
+      - '&625 Man Teams!'
+      - '&6100 Players Per Game!'
+      - '&6Last Nexus Standing Wins!'
+
+hubs:
+  Hub-1:
+    permission: hub.join
+  Hub-2:
+    permission: hub.join
+  Hub-3:
+    permission: hub.join
+  Hub-4:
+    permission: hub.join
+  Hub-5:
+    permission: hub.join
+  Restricted-Hub:
+    permission: ubungee.restricted

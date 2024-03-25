@@ -1,0 +1,5 @@
+name: qModSuite
+version: 1.0
+author: MineHQ Development Team
+main: dev.lugami.qmodsuite.qModSuite
+depend: [ qLib ]

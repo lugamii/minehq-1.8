@@ -1,0 +1,8 @@
+Mongo:
+  Host: "127.0.0.1"
+  Port: 27017
+  DbName: "Fallback"
+  Authentication:
+    Enabled: false
+    Username: "admin"
+    Password: ""

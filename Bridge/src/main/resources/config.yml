@@ -1,0 +1,32 @@
+redis:
+  host: "127.0.0.1"
+  port: "6379"
+  password: ""
+  db: "1"
+  channel: "bridgepacket"
+
+mongo:
+  host: "localhost"
+  port: "27017"
+  database: "Bridge"
+  auth:
+    enabled: "false"
+    username: ""
+    password: ""
+
+serverDisplayName: "Bridge Network"
+serverWebsite: "Bridge.rip"
+AllowBannedJoins: "false"
+
+server:
+  ban-lobby: false
+
+serverName: "BridgeServer"
+serverGroup: "Bridge"
+
+pluginUpdateDirectory: "%user_home%/Bridge/updater"
+updaterGroups: []
+
+handleServerDeployment: "true"
+serverDeploymentDirectory: "%user_home%/Bridge/servers"
+serverTemplateDirectory: "%user_home%/Bridge/templates"

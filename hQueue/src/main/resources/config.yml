@@ -1,0 +1,28 @@
+redis:
+  host: "localhost"
+  port: 6379
+  password: ""
+  channel: "hqueue-server"
+  database: 0
+
+lang:
+  queue:
+    not_queued: "&cYou are currently not queued."
+    left: "&cYou have been removed from the %queue% queue."
+    joinedqueue: "&aYou have been added to the %queue% queue!"
+    joinedplayerqueue: "&6Sending you to %queue%&6..."
+    already_exists: "&cThere is already a queue with the name %queue%."
+    created: "&aCreated the queue %queue%."
+    doesnt_exist: "&cThere is no such queue by the name %queue%."
+    deleted: "&aDeleted the queue %queue%."
+    paused: "&aPaused the queue %queue%."
+    unpaused: "&aUnpaused the queue %queue%."
+    alreadyqueued: "&cYou are already in the queue for %queue%."
+    list_title:
+      - "&6&lQueues"
+      - ""
+    no_queues: "&c&oNo queues found..."
+    list_queue:
+      - "&e%queue% %paused%"
+      - "&fIn Queue: %inqueue%"
+      - "&fOffline In Queue: %offlinequeue%"

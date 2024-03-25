@@ -1,0 +1,5 @@
+name: Bridge
+version: ${git.commit.id.abbrev}
+author: Bridge Development Team
+main: dev.lugami.bridge.bukkit.Bridge
+depend: [ qLib ]

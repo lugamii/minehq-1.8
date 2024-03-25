@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>dev.lugami</groupId>
+    <artifactId>MHQWorkspace</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>PotPvP</module>
+        <module>qLib</module>
+        <module>Spigot</module>
+        <module>Bridge</module>
+        <module>Basic</module>
+        <module>qModSuite</module>
+        <module>uHub</module>
+        <module>hQueue</module>
+        <module>uBungee</module>
+        <module>Fallback</module>
+    </modules>
+
+
+</project>

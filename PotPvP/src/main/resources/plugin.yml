@@ -1,0 +1,6 @@
+name: PotPvP
+version: 1.8
+author: LugamiPvP
+main: dev.lugami.potpvp.PotPvPSI
+depend: [ qLib ]
+softdepend: [ Basic, AntiCheat ]

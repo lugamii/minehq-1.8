@@ -1,0 +1,14 @@
+text:
+  network-website: bridge.rip
+  teamspeak: ts.bridge.rip
+idlekick:
+  enabled: false
+  minutes: 15
+  message: '&cYou have been idle for too long!'
+disallowedCommands:
+  - 'op'
+  - 'reload'
+  - 'rl'
+  - 'me'
+  - 'whisper'
+  - 'w'

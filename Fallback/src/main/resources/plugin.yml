@@ -1,0 +1,5 @@
+name: Fallback
+version: "${git.commit.id.abbrev}"
+author: ${minehq.pluginAuthor}
+main: com.moonsworth.fallback.Fallback
+depend: [qLib, Bridge]

@@ -1,0 +1,5 @@
+name: hQueue-bukkit
+version: faa3eb4
+author: MineHQ Development Team
+main: dev.lugami.hqueue.hQueue
+depend: [ qLib ]
